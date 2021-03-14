@@ -5,7 +5,7 @@ module.exports = function toReadable (number) {
  let sot = { 20: 'twenty', 30: 'thirty', 40: 'forty', 50: 'fifty', 60: 'sixty', 70: 'seventy', 80: 'eighty', 90: 'ninety'};
 
  if(number <= 19) {
-  output.pushdes[number];
+  output.push(des[number]);
  }
 
   if(number > 19 && number < 100) {
