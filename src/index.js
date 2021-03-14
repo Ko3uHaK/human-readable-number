@@ -19,7 +19,7 @@ module.exports = function toReadable (number) {
   
   if(number >= 100) {
       let hundreds = Math.trunc(number / 100);
-      output.push(numbArr[hundreds]);
+      output.push(sot[hundreds]);
       output.push('hundred');
       if (string[string.length - 2] == '0' && string[string.length - 1] == '0') {
           return output.join(' ');
